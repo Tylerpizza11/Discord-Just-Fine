@@ -1,0 +1,66 @@
+/* 
+Welcome to the finest userbar the is!
+features include: working with Spotify, Vc, and more!
+Please note if there are any bugs, go to the issues tab and submit it and a photo! */
+
+
+.avatarWrapper_b2ca13 {
+    margin-right: 0px;
+    align-items: center;
+    display: flex;
+    margin-left: -2px;
+    min-width: 120px;
+    padding-left: 0px;
+}
+
+.panels_a4d4d9 {
+    background: #181a1d !important;
+    box-shadow: 0 5px 8px #15171a;
+    border-radius: 13px;
+    margin: 10px 8px 10px;
+    position: absolute;
+    bottom: 7px;
+    perspective: 1px;
+    border-collapse: separate;
+    overflow: hidden;
+    width: 224px;
+    }
+#vc-spotify-info-wrapper {    
+    height: 4em;
+}
+#vc-spotify-info-wrapper img {
+    height: 226px;
+    object-fit: contain;
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    filter: brightness(50%)
+}
+
+#vc-spotify-info-wrapper img:hover {
+    filter: blur(8px);
+    filter: brightness(50%)
+    
+}
+    
+#vc-spotify-titles {
+    display: flex;
+    flex-direction: column;
+    padding: .2rem;
+    align-items: flex-start;
+    place-content: flex-start center;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.vc-spotify-button {
+    position: relative;
+}
+
+.wrapper_adcaac {
+    position: relative;
+    overflow: visible;
+    z-index: 1;
+}
